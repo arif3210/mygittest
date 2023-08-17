@@ -4,7 +4,7 @@
 int front = -1,rear = -1,mutex = 0,queue[SIZE],product = 1;
 void enqueue(){
 	if(mutex >= SIZE){
-		printf("BUFFER FULL\n");
+		printf("BUFFER IS FULL\n");
 		return;
 	}else if(front == -1 && rear == -1 ){
 		front = rear = 1;
