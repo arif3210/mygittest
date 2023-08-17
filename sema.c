@@ -4,6 +4,6 @@
 #include<unistd.h>
 void main(){
     if(fork()){
-    printf("hi");
+    printf("hiiiii");
     }
 }
